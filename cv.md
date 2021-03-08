@@ -46,6 +46,7 @@ Inolta LTD | September 2019 - November 2020
 
 Website development for CMS Joomla, WordPress, Drupal by PSD layout, with / without a template. \
 Refinement of the functionality according to the terms of reference. \
+
 SE Ranking LTD | December 2020 to present
 
 Support of the company's websites for CMS WordPress. Layout pages and development components.
