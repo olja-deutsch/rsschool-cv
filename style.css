@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -11,25 +12,27 @@ body {
     font-family: "Open Sans", "Tahoma", sans-serif;
     color: #000;
 }
-p {
-    margin-bottom: 10px;
-}
+
+p { margin-bottom: 10px; }
+
+ul { margin-left: 25px; }
+
 .container {
     margin: 0 auto;
     width: auto;
     max-width: 1200px;
     padding: 0 15px;
 }
-.text-center {
-    text-align: center;
-}
-.text-uppercase {
-    text-transform: uppercase;
-}
+
+.text-center { text-align: center; }
+
+.text-uppercase { text-transform: uppercase; }
+
 .header {
     position: relative;
     padding: 100px 0 30px;
 }
+
 .header::before {
     content: '';
     position: absolute;
@@ -40,14 +43,15 @@ p {
     height: 200px;
     background-color: #ced7df;
 }
-.photo {
-    border-radius: 50%;
-}
+
+.photo { border-radius: 50%; }
+
 h1 {
     font-size: 42px;
     font-weight: normal;
     margin-bottom: 15px;
 }
+
 h2 {
     font-size: 22px;
     color: #ced7df;
@@ -55,57 +59,52 @@ h2 {
     margin-top: 20px;
     font-weight: normal;
 }
-a {
-    color: #000;
-}
+
+a { color: #000; }
+
 a:hover {
     color: #000;
     text-decoration: none;
 }
+
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
-.width-1-2 {
-    width: 50%;
-}
-.content {
-    padding: 0 0 60px;
-}
+
+.width-1-2 { width: 50%; }
+
+.content { padding: 0 0 60px; }
+
 .info {
     padding-top: 30px;
     border-top: 2px solid #ced7df;
 }
+
 .info__part {
     position: relative;
     padding-right: 30px;
 }
+
 .info__part:first-child::after {
-    content: '';
     position: absolute;
     top: 30px;
     right: 0;
     width: 2px;
     height: calc(100% - 30px);
     background-color: #ced7df;
+    content: '';
 }
-.info__part.width-1-2:last-child {
-    padding-left: 30px;
-}
-.margin_big_top {
-    margin-top: 35px;
-}
+
+.info__part.width-1-2:last-child { padding-left: 30px; }
+
+.margin_big_top { margin-top: 35px; }
 
 
 /* media properties  */
 @media (max-width: 767px) {
-    .width-1-2 {
-        width: 100%;
-    }
-    .info__part.width-1-2:last-child {
-        padding-left: 0;
-    }
-    .info__part:first-child::after {
-        content: none;
-    }
+    .width-1-2 { width: 100%; }
+    .info__part.width-1-2:last-child { padding-left: 0; }
+
+    .info__part:first-child::after { content: none; }
 }
